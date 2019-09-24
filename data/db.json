@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "_id": 1,
+      "_id": 10,
       "name": "comedy",
       "display_name": "Comedy",
       "description": "movies that typically elicit humor"
@@ -13,18 +13,18 @@
       "description": "movies with enthralling story lines that leave viewers at the edge of their seats"
     },
     {
-      "_id": 3,
-      "name": "horror",
-      "display_name": "Horror",
-      "description": "movies that aim to scare"
-    },
-    {
       "_id": 4,
       "name": "romcom",
       "display_name": "Romantic Comedy",
       "description": "movies that involve cheesy romance that always ends well"
+    },
+    {
+      "_id": 5,
+      "name": "action",
+      "display_name": "Action",
+      "description": "movies with action and typically violence"
     }
-  ], 
+  ],
   "products": [
     {
       "_id": 1,
@@ -41,18 +41,18 @@
       "description": "movie about people on a sinking ship... you know the story!"
     },
     {
-      "_id": 3,
-      "category": "horror",
-      "name": "it",
-      "display_name": "It",
-      "description": "a story about a clown who eats people..."
-    },
-    {
       "_id": 4,
       "category": "romcom",
       "name": "about time",
       "display_name": "About Time",
       "description": "pretty darn good romcom if you ask me"
+    },
+    {
+      "_id": 6,
+      "category": "romcom",
+      "name": "the holiday",
+      "display_name": "The Holiday",
+      "description": "a christmas classic"
     }
   ]
 }
