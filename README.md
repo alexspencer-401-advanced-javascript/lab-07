@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/alexspencer-401-advanced-javascript/simple-api/pull/1)
-* [travis](http://xyz.com)
+* [travis]()
 
 #### Documentation
 * openapi.json documentation can be found in `/docs/openapi.json`
