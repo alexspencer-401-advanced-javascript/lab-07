@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch data/db.json --routes routes.json --id _id",
+    "lint": "eslint './**/*.json'",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "author": "",
