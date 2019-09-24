@@ -5,31 +5,18 @@
 ### Author: Alex Spencer
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/alexspencer-401-advanced-javascript/simple-api/pull/1)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-**or, include an `.env.example`**
+* openapi.json documentation can be found in `/docs/openapi.json`
 
 #### Running the app
 
 **Describe what npm scripts do**
-(hint: `npm run` from command line will give you list, paste here and change
-command to description)
-  
-#### Tests
-Any additional testing information
-
-#### UML
-Link to an image of the UML for your application and response to events
+* Scripts: 
+  - "start": "json-server --watch data/db.json --routes routes.json --id _id",
+  - "lint": "eslint **/*.js",
+  - "test": "jest --verbose --coverage",
+  - "test-watch": "jest --watchAll --verbose --coverage",
+  - "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
