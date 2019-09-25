@@ -1,0 +1,21 @@
+{
+  "name": "lab-03",
+  "version": "0.0.1",
+  "description": "this gonna be rad",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data/db.json --routes routes.json --id _id",
+    "lint": "eslint './**/*.json'",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "jsdoc": "^3.6.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
